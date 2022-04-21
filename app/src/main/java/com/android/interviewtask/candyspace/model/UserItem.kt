@@ -2,30 +2,29 @@ package com.android.interviewtask.candyspace.model
 
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 data class UserItem(
     @SerializedName("accept_rate")
-    val acceptRate: Int,
+    val acceptRate: Int?,
     @SerializedName("account_id")
-    val accountId: Int,
+    val accountId: Int?,
     @SerializedName("badge_counts")
     val badgeCounts: BadgeCounts,
-    @SerializedName("collectives")
-    val collectives: List<Collective>,
     @SerializedName("creation_date")
-    val creationDate: Int,
+    val creationDate: Long,
     @SerializedName("display_name")
     val displayName: String,
     @SerializedName("is_employee")
     val isEmployee: Boolean,
     @SerializedName("last_access_date")
-    val lastAccessDate: Int,
+    val lastAccessDate: Long?,
     @SerializedName("last_modified_date")
     val lastModifiedDate: Int,
     @SerializedName("link")
     val link: String,
     @SerializedName("location")
-    val location: String,
+    val location: String?,
     @SerializedName("profile_image")
     val profileImage: String,
     @SerializedName("reputation")
@@ -40,12 +39,10 @@ data class UserItem(
     val reputationChangeWeek: Int,
     @SerializedName("reputation_change_year")
     val reputationChangeYear: Int,
-    @SerializedName("timed_penalty_date")
-    val timedPenaltyDate: Int,
     @SerializedName("user_id")
     val userId: Int,
     @SerializedName("user_type")
     val userType: String,
     @SerializedName("website_url")
-    val websiteUrl: String
-)
+    val websiteUrl: String?
+):Serializable

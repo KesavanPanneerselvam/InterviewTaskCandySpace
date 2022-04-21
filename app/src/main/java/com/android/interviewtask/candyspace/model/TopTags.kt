@@ -3,11 +3,11 @@ package com.android.interviewtask.candyspace.model
 
 import com.google.gson.annotations.SerializedName
 
-data class UsersList(
+data class TopTags(
     @SerializedName("has_more")
     val hasMore: Boolean,
     @SerializedName("items")
-    val userItems: MutableList<UserItem>,
+    val tagItems: List<TagItem>,
     @SerializedName("quota_max")
     val quotaMax: Int,
     @SerializedName("quota_remaining")
