@@ -2,8 +2,9 @@
 
 This repository contains an android app for interview purpose. It implements MVVM architecture using Koin ID, Retrofit, Coroutine, ViewModel, CardView, LiveData and Recyclerview.
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MalligaSaravanan93/InterviewTask/master/InterviewTask_Screen1.jpg" width="250"/>
-  <img src="https://raw.githubusercontent.com/MalligaSaravanan93/InterviewTask/master/InterviewTask_Screen2.jpg" width="250"/>
+  <img src="https://github.com/KesavanPanneerselvam/InterviewTaskCandySpace/blob/master/Screen1.jpeg" width="250"/>
+  <img src="https://github.com/KesavanPanneerselvam/InterviewTaskCandySpace/blob/master/Screen2.jpeg" width="250"/>
+  <img src="https://github.com/KesavanPanneerselvam/InterviewTaskCandySpace/blob/master/Screen3.jpeg" width="250"/>
 </p>
 <br>
 <br>
@@ -19,4 +20,4 @@ This repository contains an android app for interview purpose. It implements MVV
 
 #### !Important: UI & Unit Testing:
 
-Before perform the UI & Unit Testing please read the comments in [CardsFragment.kt](https://github.com/MalligaSaravanan93/InterviewTask/blob/78923fa5072b3dfd49ee7fca90c61d975e6db1ca/app/src/main/java/com/malliga/interviewtask/view/CardsFragment.kt) Line no.88 and 97
+! Important - Before start testing please uncomment the testing code lines 36 and comment 41-47 in UserViewModel.kt.(https://github.com/KesavanPanneerselvam/InterviewTaskCandySpace/blob/master/app/src/main/java/com/android/interviewtask/candyspace/ui/userslist/UserViewModel.kt)
