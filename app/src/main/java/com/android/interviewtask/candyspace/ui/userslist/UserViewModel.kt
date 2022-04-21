@@ -30,7 +30,14 @@ class UserViewModel(
 
     private fun collectUsersList() {
         launch {
+            /******
+             *  ! Important - Before start testing please uncomment the testing codes.
+             */
             //_usersLiveData.postValue(UIState.SUCCESS(getOutputData()))
+
+            /******
+             *  ! Important - Before start testing please comment the testing codes.
+             */
             stackExchangeRepository.userresponseFlow.collect { uiState ->
                 when(uiState) {
                     is UIState.LOADING -> { _usersLiveData.postValue(uiState) }

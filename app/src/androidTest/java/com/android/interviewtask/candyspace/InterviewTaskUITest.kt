@@ -19,7 +19,7 @@ import org.junit.runners.MethodSorters
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 class InterviewTaskUITest {
     /******
-     *  ! Important - Before start testing please uncomment the testing codes in CardsFragment.kt.
+     *  ! Important - Before start testing please uncomment the testing code lines 36 and comment 41-47 in UserViewModel.kt.
      */
 
     @Rule
